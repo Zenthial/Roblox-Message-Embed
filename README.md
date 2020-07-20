@@ -12,7 +12,7 @@ This example assumes that the class is a child of the server script.
 ```lua
 local discordClass = require(script.DiscordClass)
 
-local message = discordClass.new("https://discordapp.com/api/webhooks/696560287779782697/D5w9CxqUy03OgOoCIpMNpdSECz8JsfXe3jFmSyRx-pYE_RuxmRQHr4xYPJMl_WXmmrGU")
+local message = discordClass.new("webhook-here")
 
 local newField = discordClass.newField("name", "value")
 local newFooter = discordClass.newFooter("text goes here", "https://tr.rbxcdn.com/6a63f2b5da298c220feef4294755709c/150/150/AvatarHeadshot/Png")
