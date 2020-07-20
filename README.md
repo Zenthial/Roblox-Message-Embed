@@ -1,6 +1,11 @@
+<div align="center">
+	<h1>Roblox LUA Discord Message Class</h1>
+	<p>A way for developers to easily have discord integration into their games.</p>
+</div>
+
 ## About
 
- A simple class that [Roblox](https://www.roblox.com) allows developers to easily send messages to discord. This class is fully documented with a JavaDoc style. This class assumes that you have basic programming capabilities, understanding what a constructor is and how object oriented programming works. I highly encourage that you read about the basics of OOP if you do not understand how OOP works, and then attempt to use this class.
+ A simple class that [Roblox](https://www.roblox.com) allows developers to easily send messages to discord. This class is fully documented with a JavaDoc style. The goal of this class is to allow for developers to send anywhere from the most simple of text messages to full rich embeds, using discord webhooks.
 
 ## Example
 This example assumes that the class is a child of the server script.
