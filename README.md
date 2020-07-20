@@ -5,7 +5,7 @@
 
 ## About
 
- A simple class that [Roblox](https://www.roblox.com) allows developers to easily send messages to discord. This class is fully documented with a JavaDoc style. The goal of this class is to allow for developers that are used to using Discord.JS style of embeds to easily create embeds and integrate discord into their games.
+ A simple class that [Roblox](https://www.roblox.com) allows developers to easily send messages to discord. This class is fully documented with a JavaDoc style. The goal of this class is to allow for developers that are used to using [discord.js](https://discord.js.org/#/) style of embeds to easily create embeds and integrate discord into their games.
 
 ## Example
 This example assumes that the class is a child of the server script.
