@@ -28,6 +28,8 @@ embed:PostAsync()
 ## Credits
 Version 1.0 was created by [tomspell](https://www.roblox.com/users/9345226/profile)
 
+Inspired by [discord.js Message Embeds](https://discord.js.org/#/docs/main/stable/class/MessageEmbed)
+
 ## License
 
 MIT
