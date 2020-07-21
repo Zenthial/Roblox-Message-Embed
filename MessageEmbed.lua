@@ -59,6 +59,24 @@ function MessageEmbed:AddField(name, value, inline)
 end
 
 --[[
+    Adds multiple fields at a time (max 25)
+
+    @param fields [Table] takes in a table of fields, example:
+    local fieldsToAdd = {
+        {"testing", "other testing"},
+        {"more testing", "even more testing"}
+    }
+
+]]
+function MessageEmbed:AddFields(fields)
+    assert(typeof(fields) == "table", "fields must be a table")
+    for _, field in pairs(fields) do
+        assert(typeof(field) == "table", "the individual fields within the fields table must be tables")
+        self:AddField(field[1], field[2], field[3])
+    end
+end
+
+--[[
     Sets the title of the embed
 
     @param title [String] the title of the embed
